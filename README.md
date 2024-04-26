@@ -17,16 +17,16 @@ This project is designed to monitor audio files in a specified directory, proces
 git clone <repository_url>
 ```
 2. Install the required Python dependencies:
-   ```sh
-   pip install -r requirements.txt
-   ```
+```sh
+pip install -r requirements.txt
+```
 3.Set up MongoDB on your local machine or provide the appropriate MongoDB connection URI in the code.
 
 ## Usage
 -**Run the main Python script to start monitoring the specified directory:**
-   ```sh
-   python audio_monitor.py
-   ```
+```sh
+python audio_monitor.py
+```
 -**Place audio files in the monitored directory to trigger processing.**
 
 ## Configuration##
